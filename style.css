@@ -24,9 +24,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     border-bottom: 1px solid #605554;
+    margin-bottom: 15px;
 }
 
 .kiri{
@@ -35,6 +36,7 @@ body{
     border-right: 1px solid #605554;
     display: flex;
     align-items: center;
+    font-size: inherit;
 }
 
 .kanan{
@@ -43,4 +45,7 @@ body{
     display: flex;
     align-items: center;
     border-left: 1px solid #605554;
+    color: #fff;
+    background: transparent;
+    font-family: "Jost", sans-serif;
 }
